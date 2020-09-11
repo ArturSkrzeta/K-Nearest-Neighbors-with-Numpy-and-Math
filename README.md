@@ -4,7 +4,7 @@
 <ul>
   <li>All of the already classfied cases are called neighbours to the new taken case.</li>
   <li>Classified case means it has a label assigned to it.</li>
-  <li>With this method we want to assign the label to a new case based on the distance comparisong to all cases using distance function.</li>
+  <li>With this method we want to assign the label to a new case based on the distance comparison to all cases using distance function.</li>
   <li>K nearest neighbours means k as an amount of closest (similar with the value) cases,</li>
   <br>
   <img src="images/chart.JPG">
