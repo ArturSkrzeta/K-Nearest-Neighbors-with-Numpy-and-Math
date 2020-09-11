@@ -12,7 +12,7 @@
   <li>Credits go to www.saedsayad.com</li>
 </ul>
 
-<h3>Machine Learning for model training<h3>
+<h3>Machine Learning for model training</h3>
 <ul>
   <li>We use the data already classified to train a model dividing data to subsets:
     <br>
