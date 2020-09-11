@@ -39,6 +39,3 @@
   <br>
   <img src="images/cmd.JPG">
 </ul>
-
-
-
