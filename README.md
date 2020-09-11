@@ -16,10 +16,10 @@
 <ul>
   <li>We use the data already classified to train a model dividing data to subsets:
     <br>
-    - training samples - each sample is the set of featrues
-    - training labels - for each training sample we have label classified based on the sample's features
-    - test samples - based on test samples we want to predict labels using trained model 
-    - test labels - we are using test labels to compare them with prediction outcome - it assess the reliability of the model
+    - training samples - each sample is the set of featrues <br>
+    - training labels - for each training sample we have label classified based on the sample's features <br>
+    - test samples - based on test samples we want to predict labels using trained model <br>
+    - test labels - we are using test labels to compare them with prediction outcome - it assess the reliability of the model <br>
   </li>
   <li>The trained model classifies previously unseen data to the corresponding label.
     <br>
