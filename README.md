@@ -8,6 +8,7 @@
   <li>K nearest neighbours means k as an amount of closest (similar with the value) cases,</li>
   <br>
   <img src="images/chart.JPG">
+  <br>
   <li>Credits go to www.saedsayad.com</li>
 </ul>
 
