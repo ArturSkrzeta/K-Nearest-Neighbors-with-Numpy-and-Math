@@ -5,16 +5,28 @@
   <li>All of the already classfied cases are called neighbours to the new taken case.</li>
   <li>Classified case means it has a label assigned to it.</li>
   <li>With this method we want to assign the label to a new case based on the distance comparison to all cases using distance function.</li>
-  <li>K nearest neighbours means k as an amount of closest (similar with the value) cases,</li>
+  <li>K nearest neighbours means k as an amount of closest (similar with the value) cases.</li>
   <br>
   <img src="images/chart.JPG">
   <br>
   <li>Credits go to www.saedsayad.com</li>
 </ul>
 
+<h3>Machine Learning for model training<h3>
+<ul>
+  <li>We use the data already classified to train a model dividing data to subsets:
+    <br>
+    - training samples - each sample is the set of featrues
+    - training labels - for each training sample we have label classified based on the sample's features
+    - test samples - based on test samples we want to predict labels using trained model 
+    - test labels - we are using test labels to compare them with prediction outcome - it assess the reliability of the model
+  </li>
+  <li>The trained model classifies previously unseen data to the corresponding label.
+    <br>
+    - when model reliabilit is satisfing, we can tak new case with its features and classify it to a label.
+  </li>
+</ul>
 
 
-training samples - each sample is the set of featrues
-test samples - based on test samples we want to predict labels based on a trained model 
-training labels - for each training samples we have labels classified based on the sample's features
-test labels - we are using test labels to compare them with prediction outcome - it assess the reliability of the model
+
+
