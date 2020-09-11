@@ -37,7 +37,7 @@
     - taking new features sample <br>
     - calculating predicted label <br>
   <br>
-  <img src="image/cmd.JPG">
+  <img src="images/cmd.JPG">
 </ul>
 
 
