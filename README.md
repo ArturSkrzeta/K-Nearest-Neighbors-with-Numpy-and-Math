@@ -27,6 +27,18 @@
   </li>
 </ul>
 
+<h3>Demo</h3>
+<ul>
+  <li>console prints info:</li>
+    <br>
+    - test sample - list of features lists <br>
+    - predicted labels - list of labels that corresponds to each list of features above <br>
+    - calculating accuracy which is 100% in this case <br>
+    - taking new features sample <br>
+    - calculating predicted label <br>
+  <br>
+  <img src="image/cmd.JPG">
+</ul>
 
 
 
