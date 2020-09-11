@@ -23,7 +23,7 @@
   </li>
   <li>The trained model classifies previously unseen data to the corresponding label.
     <br>
-    - when model reliabilit is satisfing, we can tak new case with its features and classify it to a label.
+    - when model reliability is satisfing, we can tak new case with its features and classify it to a label.
   </li>
 </ul>
 
