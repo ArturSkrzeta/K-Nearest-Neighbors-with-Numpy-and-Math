@@ -1,4 +1,4 @@
-<h2>K-Nearest Neighbors with Numpy and Math</h2>
+<h2>K-Nearest Neighbors with Numpy and Python</h2>
 
 <h3>Intro</h3>
 <ul>
