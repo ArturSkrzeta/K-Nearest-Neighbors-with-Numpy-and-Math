@@ -1,0 +1,154 @@
+	<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Portfolio Artur Skrzeta</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><a href="https://arturskrzeta.github.io/"><img src="images/avatar.png" alt="" style="margin-bottom:0px"/></a></span>
+					<h1 id="logo"><a href="https://arturskrzeta.github.io/">Artur Skrzeta</a></h1>
+					<p>Data Analyst<br />
+					+4 years experience</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">Intro</a></li>
+						<li><a href="#two">Features</a></li>
+						<li><a href="#three">Demo</a></li>
+						<li><a href="#four">Setup</a></li>
+						<li><a href="#five">Source Code</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/artur-skrz%C4%99ta-010b23187/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.instagram.com/arturskrrr/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/ArturSkrzeta" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto: arturskrzeta@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="container">
+									<header class="major">
+										<h2>Linear Regression with Pure Math</h2>
+										<h3>Intro</h3>
+										<p>Regression analysis is a predictive method that allows to investigate the relationship between y (dependent variable) and x (independent value).
+											In regressing we want to predict continueous values as opposed to classification model where we want to predict the class of a case i.e. label or 0/1 category.</p>
+										<p>Regression application:</p>
+										<ul>
+										  <li>Determining the strength of ralationships betwenn variables - of how x values effects y values:
+										    <br>
+										    - e.g. relationship between employee's age and income, earnings and marketing spend.
+										  </li>
+										  <li>Forecasting impact or effect on y values by changing one or more x values:
+										    <br>
+										    - e.g. how much income increases when 10 000 USD invested in the specific business field.
+										  </li>
+										  <li>Trend and future values forcasting:
+										    <br>
+										    - estimating the sales in the future when trend is stable in time.
+										  </li>
+										</ul>
+									</header>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>Features</h3>
+									<p>App includes following features:</p>
+									<ul class="feature-icons">
+										<li class="icon solid fa-check">Numpy</li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="container">
+									<h3>Demo</h3>
+									<p>Fitting linear function to data points:</p>
+									<img src="images/lr.JPG">
+									<ol>
+										<li>Generating random data.</li>
+										<li>Splitting data into training and testing subset.</li>
+										<li>Training model with training subset - x training features and y training values:
+											<br>
+											- training model depends on fitting linear function as much as possible to the data points
+										</li>
+										<li>Testing model with testing subset:
+											<br>
+											- putting x testing features through a model<br>
+											- model gives y predicted values<br>
+											- we compare y predicted values dividing them by y testing values getting model accuracy
+										</li>
+										<li>Once accuracy satisfies, we can put through model new sample features model has never seen.</li>
+										<li>Model follows linear functon and adjusts y values for given x sample features.</li>
+									</ol>
+									<img src="images/output.jpg">
+									<ul>
+										<li>As above for 5 new features as an input, model gives back 5 corresponding values due to linear function.</li>
+									</ul>
+								</div>
+							</section>
+
+
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>Setup</h3>
+									<p>Script requires libraries installation:</p>
+									<ul>
+										<li>pip install matplotlib</li>
+										<li>pip install numpy</li>
+									</ul>
+								</div>
+							</section>
+
+							<section id="five">
+								<div class="container">
+									<h3>Source Code</h3>
+									<p>You can view the source code: <a href="https://github.com/ArturSkrzeta/Linear-Regression-with-Numpy-and-Python/tree/master/project">HERE</a></p>
+									<p>&nbsp</p>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<a href="https://arturskrzeta.github.io/" style="padding-bottom:10px;">Back to Portfolio</a>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
